@@ -1,0 +1,5 @@
+Brackets - бесплатный редактор кода
+Расширения:
+-emmet
+-autosave
+-beautify
