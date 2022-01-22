@@ -3,3 +3,27 @@ Brackets - бесплатный редактор кода
 -emmet
 -autosave
 -beautify
+
+Структура:
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+Тэги:
+парные
+title - заголовок вкладки
+<p> параграф
+<b> жирный
+<i> курсив
+
+одиночные
+<br> перенос строки
+<hr> горизонтальная черта
+
