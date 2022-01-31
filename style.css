@@ -1,3 +1,12 @@
-h3{
+.redhead{
     color:red;
+}
+p{
+    font-size: 14px;
+}
+#har{
+    color: green;
+}
+img[alt="Phone"]{
+    border: 4px solid red;
 }
