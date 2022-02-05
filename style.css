@@ -1,7 +1,10 @@
 .heading{
-    color:darkblue;
-    background-color: #ccc;
+    color:black;
+    font-size: 18px;
+    background-color: #eaeaea;
     text-align:center;
+    font-weight: 400;
+    
 }
 p{
     font-size: 14px;
@@ -9,15 +12,64 @@ p{
 a{
     text-decoration:none;
 }
-/*#har{
-    color: green;
-}*/
+#shortdescription{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+#fulldescription{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.ull li{
+    list-style: none;
+    list-style-image: url(img/marker.jpg);
+    font-size: 16px;
+    
+    
+}
 img[alt="Phone"]{
     border: 2px solid gray;
+    
 }
-.ul{
+.Menu{
     list-style-type: none;
+}
+.Menu li a{
+    font-family: cursive;
+    font-size: 20px;
 }
 .copy{
     text-align: right;
+}
+.name{
+    background-image: url(img/walp.jpg);
+    background-position:center;
+    text-align:center;
+    color: white;
+    background-repeat:no-repeat;
+    background-size:auto;
+}
+body{
+    background-color: #f8f8f8;
+}
+h2{
+    text-align: center;
+    color: darkblue;
+}
+fieldset{
+    color:black;
+    font-weight: bold;
+    border-color: darkblue;
+    border:2px solid darkblue;
+}
+.contactsfieldset, .registrationfieldset{
+    width: 300px;
+    margin: 0 auto;
 }
