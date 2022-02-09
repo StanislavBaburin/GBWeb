@@ -6,6 +6,10 @@
     font-weight: 400;
     
 }
+h2{
+    text-align: center;
+    color: darkblue;
+}
 p{
     font-size: 14px;
 }
@@ -36,6 +40,7 @@ a{
 }
 img[alt="Phone"]{
     border: 2px solid gray;
+    width: 500px;
     
 }
 .Menu{
@@ -59,10 +64,7 @@ img[alt="Phone"]{
 body{
     background-color: #f8f8f8;
 }
-h2{
-    text-align: center;
-    color: darkblue;
-}
+
 fieldset{
     color:black;
     font-weight: bold;
@@ -73,3 +75,4 @@ fieldset{
     width: 300px;
     margin: 0 auto;
 }
+.Menu li a:hover{color:red;}
