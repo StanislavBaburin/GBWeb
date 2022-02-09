@@ -236,3 +236,13 @@ nth-child(3) - к третьему
 .text:first-letter{
 	font-size:30px;
 }
+
+
+Таблицы
+<table>
+	<tr>(строка)
+		<td>(ячейка)
+		</td>
+	</tr>
+</table>
+у td атрибут rowspan - объединение строк, colspan - объединение ячеек
