@@ -31,13 +31,14 @@ a{
     text-align: left;
 }
 
-.ull li{
+.character li{
     list-style: none;
     list-style-image: url(img/marker.jpg);
     font-size: 16px;
-    
-    
 }
+/*.character li:nth-child(2n){
+    color: darkblue;
+}*/
 img[alt="Phone"]{
     border: 2px solid gray;
     width: 500px;
@@ -76,3 +77,8 @@ fieldset{
     margin: 0 auto;
 }
 .Menu li a:hover{color:red;}
+
+.character li:hover:after{
+    content: " <<";
+    color: red;
+}
