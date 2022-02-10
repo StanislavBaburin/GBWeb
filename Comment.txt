@@ -246,3 +246,13 @@ nth-child(3) - к третьему
 	</tr>
 </table>
 у td атрибут rowspan - объединение строк, colspan - объединение ячеек
+
+padding - отступ от внутреннего края
+border-spacing - от внешнего
+
+border-collapse:collapse;-чтобы не было двойных рамок
+
+vertical-align:middle;-центрирование по вертикали
+text-align:center; - текст поцентру ячейки
+
+
