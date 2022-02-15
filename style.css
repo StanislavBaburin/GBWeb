@@ -1,29 +1,37 @@
-.heading{
-    color:black;
+.heading {
+    color: black;
     font-size: 18px;
     background-color: #eaeaea;
-    text-align:center;
+    text-align: center;
     font-weight: 400;
-    
+
 }
-h2{
+
+h2 {
     text-align: center;
     color: darkblue;
 }
-p{
+
+p {
     font-size: 14px;
 }
-a{
-    text-decoration:none;
+
+a {
+    text-decoration: none;
+    font-family: cursive;
 }
-#shortdescription{
+
+.mainimg{
+    text-align: center;
+}
+#shortdescription {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
 
-#fulldescription{
+#fulldescription {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -31,59 +39,114 @@ a{
     text-align: left;
 }
 
-.character li{
+.character li {
     list-style: none;
     list-style-image: url(img/marker.jpg);
     font-size: 16px;
 }
+
 /*.character li:nth-child(2n){
     color: darkblue;
 }*/
 /*border: 2px solid gray;*/
-img[alt="Phone"]{
-    
-    outline:1px solid gray;
+img[alt="Phone"] {
+    outline: 1px solid gray;
     width: 500px;
 }
-img[alt="Phone"]:hover{
+
+img[alt="Phone"]:hover {
     outline: none;
 }
-.Menu{
+
+.Menu {
     list-style-type: none;
-}
-.Menu li a{
     font-family: cursive;
     font-size: 20px;
 }
-.copy{
-    text-align: right;
-}
-.name{
+
+.name {
     background-image: url(img/walp.jpg);
-    background-position:center;
-    text-align:center;
+    background-position: center;
+    text-align: center;
     color: white;
-    background-repeat:no-repeat;
-    background-size:auto;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
-body{
+
+body {
     background-color: #f8f8f8;
 }
 
-fieldset{
-    color:black;
-    font-weight: bold;
-    border-color: darkblue;
-    border:2px solid darkblue;
-}
-.contactsfieldset, .registrationfieldset{
+.contactsfieldset,
+.registrationfieldset {
     width: 300px;
     margin: 0 auto;
-}
-.Menu li a:hover{color:red;}
-.Menu li a:active{color: black;}
 
-.character li:hover:after{
+    color: black;
+    font-weight: bold;
+    border-color: darkblue;
+    border: 2px solid darkblue;
+}
+
+.Menu li a:hover {
+    color: red;
+}
+
+.Menu li a:active {
+    color: black;
+}
+
+.character li:hover:after {
     content: " <<";
     color: red;
 }
+
+input[type="text"],
+textarea {
+    text-transform: capitalize;
+}
+
+input[type="password"]:focus,input[type="text"]:focus,textarea:focus {
+    color: darkblue;
+    background-color: azure;
+}
+
+.chartable {
+    width: 600px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    min-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#shortdescription::first-letter,#fulldescription::first-letter {
+    color: darkblue;
+    font-size: 20px;
+}
+
+.chartd {
+    border: 1px solid black;
+
+}
+.allptd{
+    width: 200px;
+    height: 200px;
+}
+
+
+.footer {
+    /*
+        height: 15px;
+    margin-top: -15px;
+    margin-right: -15px;
+    
+    position:absolute;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+    */
+    text-align: right;
+}
+
