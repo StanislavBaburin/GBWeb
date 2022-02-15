@@ -21,9 +21,10 @@ a {
     font-family: cursive;
 }
 
-.mainimg{
+.mainimg {
     text-align: center;
 }
+
 #shortdescription {
     color: #707070;
     font-size: 14px;
@@ -58,12 +59,25 @@ img[alt="Phone"]:hover {
     outline: none;
 }
 
-.Menu {
+.menu {
     list-style-type: none;
     font-family: cursive;
     font-size: 20px;
+    text-align: center;
 }
 
+.menu li {
+    display: inline-block;
+    width: 24%;
+
+}
+
+/*.menu li ul{
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}*/
 .name {
     background-image: url(img/walp.jpg);
     background-position: center;
@@ -79,20 +93,21 @@ body {
 
 .contactsfieldset,
 .registrationfieldset {
-    width: 300px;
+    width: 400px;
+    height: 300px;
     margin: 0 auto;
-
+    line-height: 30px;
     color: black;
     font-weight: bold;
     border-color: darkblue;
     border: 2px solid darkblue;
 }
 
-.Menu li a:hover {
+.menu li a:hover {
     color: red;
 }
 
-.Menu li a:active {
+.menu li a:active {
     color: black;
 }
 
@@ -104,9 +119,17 @@ body {
 input[type="text"],
 textarea {
     text-transform: capitalize;
+
 }
 
-input[type="password"]:focus,input[type="text"]:focus,textarea:focus {
+.comment {
+    width: 380px;
+    height: 150px;
+}
+
+input[type="password"]:focus,
+input[type="text"]:focus,
+textarea:focus {
     color: darkblue;
     background-color: azure;
 }
@@ -120,7 +143,8 @@ input[type="password"]:focus,input[type="text"]:focus,textarea:focus {
     text-align: center;
 }
 
-#shortdescription::first-letter,#fulldescription::first-letter {
+#shortdescription::first-letter,
+#fulldescription::first-letter {
     color: darkblue;
     font-size: 20px;
 }
@@ -129,7 +153,8 @@ input[type="password"]:focus,input[type="text"]:focus,textarea:focus {
     border: 1px solid black;
 
 }
-.allptd{
+
+.allptd {
     width: 200px;
     height: 200px;
 }
@@ -149,4 +174,3 @@ input[type="password"]:focus,input[type="text"]:focus,textarea:focus {
     */
     text-align: right;
 }
-
