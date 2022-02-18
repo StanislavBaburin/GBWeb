@@ -65,13 +65,26 @@ img[alt="Phone"]:hover {
     font-size: 20px;
     text-align: center;
 }
-
+.menu li:first-child{
+    width: 8%;
+    margin-left: -67px;
+    padding-top: 0px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
 .menu li {
     display: inline-block;
-    width: 24%;
+    width: 23%;
+    vertical-align:middle;
 
 }
-
+.menu a{
+    display: block;
+}
+.menu a:hover{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
 /*.menu li ul{
     display: none;
 }
@@ -85,6 +98,7 @@ img[alt="Phone"]:hover {
     color: white;
     background-repeat: no-repeat;
     background-size: auto;
+    
 }
 
 body {
