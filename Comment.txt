@@ -329,8 +329,8 @@ z-index - кто впереди на экране
 Первые способы для позиционирования:
 margin
 padding
-absolute для logo-relative для родителя
+absolute для ребенка-relative для родителя
 
 способы не оч:
-relative для logo
-absolute для logo
+relative для logo(ребенка)
+absolute для logo(ребенка)
