@@ -41,7 +41,21 @@ a {
     height: 350px;
 
 }
-
+.buy{
+    height:20px;
+    width:34%;
+    margin: 10px auto;
+}
+.buy input{
+    width: 200px;
+    height: 30px;
+}
+.buy input:hover{
+    border: 2px solid black;
+}
+.buy input:active{
+    background-color:darkblue;
+}
 #shortdescription {
     color: #707070;
     font-size: 14px;
@@ -104,6 +118,7 @@ img[alt="Phone"]:hover {
 .container{
     width: auto;
     margin: 0 auto;
+    position: relative;
 }
 
 .name {
@@ -122,6 +137,7 @@ img[alt="Phone"]:hover {
 }
 .content{
     position: relative;
+    
 }
 
 body {
@@ -170,7 +186,9 @@ textarea:focus {
     color: darkblue;
     background-color: azure;
 }
-
+.contacts{
+    text-align: center;
+}
 .chartable {
     width: 600px;
     border: 1px solid black;
@@ -185,7 +203,22 @@ textarea:focus {
     color: darkblue;
     font-size: 20px;
 }
+.catalog{
+    margin: 0 auto;
+    
+}
+.catalog div{
+    float: left;
+    width: 20%;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.catalog div a img:hover{
+    height: 160px;
+    width: 160px;
+}
 .chartd {
     border: 1px solid black;
 
@@ -198,6 +231,11 @@ textarea:focus {
 
 
 .footer {
+        text-align: right;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    clear:both;
     /*
         height: 15px;
     margin-top: -15px;
@@ -209,10 +247,7 @@ textarea:focus {
    height:30px;
    width:100%;
     */
-    text-align: right;
-    height: 30px;
-    margin-top: 30px;
-    margin-right: 30px;
+
 }
 /*.menu li ul{
     display: none;
