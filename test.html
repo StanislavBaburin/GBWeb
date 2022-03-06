@@ -4,41 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <style>
-        .d {
-            border: 1px solid black;
-            height: 200px;
-            width: 200px;
-            float: left;
-            margin: 10px;
-            
-        }
+    <link rel="stylesheet" href="styletest.css">
 
-        h1 {
-            /*overflow: hidden;*/
-            clear: both;
-            border: 1px solid red;
-        }
-        .main{
-            border: 1px solid green;
-            width: 1000px;
-            height: 1000px;
-            position: relative;
-            
-        }
-        .d1{
-            
-        }
-    </style>
 </head>
 
 <body>
-    <div class="main">
-        <div class="d d1"></div>
-        <div class="d d2"></div>
-        <div class="d d3"></div>
-        <h1>Заголовок</h1>
+    <div class="container">
+        <div class="header">
+            <ul class="menu">
+                <li><img src="img/logo.png" alt="Logo" width="150px" height="150px"></li>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="registration.html">Регистрация</a></li>
+                <li><a href="catalog/allProduct.html">Каталог</a>
+                    <!--<ul>
+                    <li>Телефоны</li>
+                    <li>Бытовая техника</li>
+                </ul>-->
+
+                </li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="nav">
+                <ul>
+                    <li>Бытовая техника</li>
+                    <li>Телевизоры</li>
+                    <li>Смартфоны</li>
+                    <li>Умный дом</li>
+                    <li>Аксессуары</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>Спецпредложение!</h1>
+            </div>
+        </div>
     </div>
+    <div class="clr"></div>
+    <div class="footer">Все права защищены &nbsp; &copy;</div>
 </body>
 
 </html>
